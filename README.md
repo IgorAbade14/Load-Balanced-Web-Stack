@@ -1,7 +1,5 @@
 # 🌐 Load Balanced Web Stack com Terraform & AWS 
 
-[![Terraform CI/CD](https://github.com/IgorAbade14/Load-Balanced-Web-Stack/actions/workflows/terraform.yml/badge.svg)](https://github.com/IgorAbade14/Load-Balanced-Web-Stack/actions/workflows/terraform.yml)
-
 Este projeto demonstra a criação de uma infraestrutura de alta disponibilidade na AWS utilizando Terraform. Ele estabelece uma rede completa (VPC) e um par de instâncias EC2 rodando servidores web Apache, balanceados por um Application Load Balancer (ALB).
 
 ## 🏗️ Arquitetura do Projeto
@@ -48,20 +46,22 @@ Isso demonstra na prática:
 ## 🛠️ Como Executar
 
 ```bash
-1. Clone o repositório
+#1. Clone o repositório
 git clone https://github.com/seu-usuario/load-balanced-web-stack.git
 cd load-balanced-web-stack
 
-2. Configure suas credenciais AWS
+#2. Configure suas credenciais AWS
 export AWS_ACCESS_KEY_ID="sua_key"
 export AWS_SECRET_ACCESS_KEY="seu_secret"
 
-3. Inicialize e aplique a infraestrutura
+#3. Inicialize e aplique a infraestrutura
 terraform init
 terraform plan
 terraform apply
 
-## 👨‍💻 Desenvolvifo por:
+```
+
+## 👨‍💻 Desenvolvido por:
 
 https://github.com/IgorAbade14  
 https://www.linkedin.com/in/igorabade14/
